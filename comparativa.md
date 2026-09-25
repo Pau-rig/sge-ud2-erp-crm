@@ -65,13 +65,13 @@ Las diferenceas no solo estan en los enfoque y en el precio si no en las necesid
 Ahora que ya hemos conocido sobre los software libres y propietarios vamos a inditeficar la licencia de cada uno de ellos: 
 
 | Producto | Tipo Software | Licencia exacta | Version Vigente | Lenguaje del Servidor | SGBD compatibles | Modalidad | Módulos Principales | Requisitos | Fecha de consulta |
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|
 | Odoo Community | ERP libre | LGPLv3 | Odoo 19.4 | Python | PostgreSQL 13 o superior | Local | Los modulos principales de Odoo Community son CRM, Ventas, Contabilidad, Facturación, Inventario, Compras, Fabricación, RR.HH., Marketing y eCommerce | Se necesita Python 3.10 o superior, PostgreSQL 13 o superior. | 25/09/2026 |
 | SAP S/HANA | ERP Propietario | Software subscription es el termino con el que se refieren a su licencia | 2608 | ABAP Cloud | SAP HANA | Nube | Los módulos principales de SAP S/HANA son Finanzas, Ventas, Compras, Cadena de suministro, Producción y Gestión de activos | Es necesario acceso a la plataforma SAP en la nube | 25/09/2026 |
 | SuiteCRM | CRM libre | AGPLv3 | SuiteCRM 8.10.2 | PHP tambien tecnologias del frontend como Angular | MySQL 8.0/8.4 y MariaDB 	10.6, 10.11, 11.4, 11.8 | Instalacion local aunque se puede utilizar servidores de alojamiento o instalarse en su propio servidor. | Los módulos principales de SuiteCRM son Calendario, Ventas, Marketing, y Atención al Cliente | PHP 8.2,8.3 o 8.4, Apache 2.4, MariaDB 10.6, 10.11, 11.4, 11.8 o MySQL 8.0, 8.4, Chrome 143+, Firefox 140 o 146+, Edge 143+ o Safari 26+ y Angular CLI ^18, Node.js ^20.11.1 o Yarn ^4.10.3 | 25/09/2026 |
-| Salesforce | CRM propietario | Software subscription es el termino con el que se refieren a su licencia pero la que tiene todas las ediciones es Salesforce| Winter`27 (264) | Apex este tipo de lenguaje orientado a objeto y tipado | SalesforceDB una base de datos relacional multitenant gestionada por Salesforce. | Nube (SaaS) | Los módulos principales de Salesforce son Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Data 360 y Agentforce. | Es necesario conexión a Internet y un navegador compatible con la plataforma. | 25/09/2026 |
+| Salesforce | CRM propietario | Software subscription es el termino con el que se refieren a su licencia pero la que tiene todas las ediciones es Salesforce | Winter`27 (264) | Apex este tipo de lenguaje orientado a objeto y tipado | SalesforceDB una base de datos relacional multitenant gestionada por Salesforce. | Nube (SaaS) | Los módulos principales de Salesforce son Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Data 360 y Agentforce. | Es necesario conexión a Internet y un navegador compatible con la plataforma. | 25/09/2026 |
 
-# 2.2 Erratas
+# 3 Erratas
 En nuestro tema dado por la profesora nos a dado se puede encontrar unas erratas.
 1. Primera 
 Esta en la presentacion de Sistemas ERP-CRM: Libres vs Propietarios
@@ -79,4 +79,78 @@ en la pagina de Hello MarienCarmen () la diapositiva 7 "Principales ERP Libres" 
 
 2. Segunda 
 En el PDF del Tema 2 de "Sistema De Gestion empresarial" en la pagina 7 en el 3 parrafo afirma que la version actual es la 14 mientras que Odoo ya esta en la version 20.
+
+# 4.Criterios de matriz
+Hemos investigado los tipos de software y investigado las tres posibles soluciones: Odoo Community, SAP S/4HANA y SuiteCRM. Ahora para que podemos selecionar la mas adecuada realizaremos un matriz de decision donde las compararemos.
+
+Para porder realizar de forma correcta la comparacion tenemos que establecer los criterios que necesitamos para "Sabores con Alma", le asignaremos un peso concreto a cada criterio.
+
+## 4.1 Criterios de evaluacion 
+Los criterios seleccionados son:
+
+- Funcionalidades: Tenemos que saber si es decuado a las funciones de la empresa como lo seria que si puede gestionar de forma adecuada los menus, clientes o el inventario.
+- Adecuación al tamaño: Somos una empresa pequeña de solo 20 empleados por lo que tener un sistema excesivamente complejo.
+- Gestión de Clientes: Tenemos mucha comunicacion con los coleguios por lo que es imprescidible que la gestion funcione correctamente.
+- Gestion interna: Es importante que los empleados puedan comunicarse de forma adecuada entre ellos.
+- Costes: Somos una empresa pequeña que debemos controlar el coste de implantar el sistema y su mantenamiento
+- Facilidad de implantación: Es importante que sea sencillo de implantar y que los empleados no les cueste adaptarse. Los empleados no son expertos en informatica y antes han estado utilizado en su mayoria papel y llamedas.
+
+Los pesos que les asignados son los siguientes:
+
+- Funcionalidades: 25%
+- Adecuación al tamaño: 15%
+- Gestión de Clientes:  15%
+- Gestion interna: 15%
+- Costes: 20%
+- Facilidad de implantación: 10%
+
+## 4.2 Justificaciones
+Una vez establecidos los criterios podemos pasar a puntuar y a justificar las decisiones que hemos tomado.
+
+1. **Funciolidades (25%)**
+- **Odoo Community (5):** Odoo tiene muchos módulos de CRM, Ventas, Contabilidad, Facturación, Inventario, Compras, Fabricacion y RR.HH, por lo que cubre compltamente muchas de las necesidades de "Sabores con Alma".
+- **SAP S/HANA (5):** Tambien oferce una amplia cantidad de modulos como lo seria Financias, Ventas, COmpras, Cadena de suministro y Producion.
+- **SuiteCRM (3):** Esta mucho mas centrada en CRM como lo seria ventas, marketing, atencion al cliente y calendario pero no cumbre del todo las necesidades internas que necesita "Sabores con Alma".
+
+2. **Adecuación al tamaño (15%)**
+- **Odoo Community (5):** Sabores con Alma es una empresa pequeña que solo cuenta con 20 empleados se adapta muy bien porque permite utilizar los diferentes módulos segunsean necesarios sintener la necesidad de una solucion empresarial tan grande.
+- **SAP S/HANA (1):** Esta orientado a organizaciones infinitamente mas grandes que "Sabores con Alma". Esta solucion es mucho mas compleja para las necesidades de nuestro catering. 
+- **SuiteCRM (4):** Por tamaño encaja bien con empresas pequeñas al no ser demasiado complejo y no necesita una gran estructura.
+
+3. Gestión de Clientes
+- **Odoo Community (4):** Odoo tiene un CRP y permite gestionar completamente a los clientes y ventas. Estos tambien estan integrados a los módulos por lo que puede conectar mas facilmente con otros procesos de la empresa.
+- **SAP S/HANA (4):** Tambien dispone de funciones relacionadas con la gestion de los clientes pero no es concreta.
+- **SuiteCRM (5):** Esta completamete orientado a la gestion de clientes. Permitiendo centralizar la información y las comuncaciones con clientes.
+
+4. Gestion interna
+- **Odoo Community (5):** Integra diferentes áreas de la empresa en un mismo sistema, por loq eu la comunicacion entre los empleados es mas facil al estar centralizada y adtualizada entra los departamentos.
+- **SAP S/HANA (5):** Esta orientada a integra y gestionar diferentes procesos empresariales, por lo que cumple perfectamente varias de las necesidades de gestion interna.
+- **SuiteCRM (3):** Permite gestionar informacion relacionad con clientes y ventas peor no estas no cobren ampliamente las gestiones internas.
+
+5. Costes
+- **Odoo Community (5):** Al ser un softeware libre y Community se reducen los costos de la licencia. Para nosotros que somos una empresa pequeña supone una opcion economica a la hora de pensar implantar un sistema de gestion.
+- **SAP S/HANA (1):** Esta planteada con un suscripción y su implantacion y mantenimiento pude supones costos demasiados elevados para "Sabores con Alma".
+- **SuiteCRM (4):** Cuenta tambien con un software libre por lo que tambien cuento como una opcion de bajo coste aumque no es perfecta por sis costes de implantación, mantenimiento y configuracion. 
+
+6. Facilidad de implantación
+- **Odoo Community (4):** Es modular por lo que su implantacion de los módulos solo requiririamos los que necesita la empresa. Al ser una empresa pequeña seria manejable peor aun tendriamos que configurarlo y los empleados tendrian que adaptarse.
+- **SAP S/HANA (2):** Su implantacion es mas compleja comparada con las otras dos, esto es debido al alcance y cantidad de procesos empresariales que puede gestionar. "Sabores con Alma" es una empresa pequeñas que trabaja con papel y llamadas la adactacion sera compleja.
+- **SuiteCRM (4):**Al ser un CRM, no es tan complicado de implantar pero aun tendriamos que configurarlo de forma especifica para la empresa.
+
+## 4.3 Resultados
+Una vez emos realizado la matriz pordemos estableces los resultado y determinar cual es el mas adecuado para "Sabores con Alma":
+
+- **Odoo Community:** 4,75/5
+- **SAP S/4HANA:** 3,15/5
+- **SuiteCRM:** 3,75/5
+
+Como podemos ver la mas adecuada seria Odoo Community. 
+
+## 4.4 Riesgos 
+Una vez que hemos elegido Odoo Community tenemos que considerar los riesgos que "Sabores con Alma" esta enfrentando:
+
+- Coste Total: Como dijimos antes aunque con Odoo Community podemos reducir costes en licencia todavia tenemos que realizar los costes de la instalacion y configuración. Tambien hay que tener encuenta los futuros costes que tenemos que relizar a la hora de realizar el mantenimiento y posibles mosdificaciones del sistema.
+- Dependecia del proveedor: Si "Sabores con ALma" necesita que se realicen modificaciones en el sistema dependera de empresas externas o profesiones en el sector que sepan encargarse de realizar configuraciones en Odoo.
+- Soporte: Como estamos utilizando Odoo Community tendremos que planear a futuro quie se encargara de realizar el soporte técnico y mantenimientos al no contar con su propio departamento informatico.
+- Migración: Si en el futuro necesitamos realizar una migracion a otro sistema podemos perder datos, pedido y informacion por lo que esto se tendra que realizar con tiempo y trabajo.
 
