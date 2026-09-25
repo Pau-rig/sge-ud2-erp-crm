@@ -5,11 +5,11 @@
 ---
 # 1.Licencias y Modelos
 ## 1.1 Software libre (FSF)
-Un software libre es un software que respeta la libredtades de los usuarios asi como tambien la comunidad. Es decir que los usuarios tienen la libertad de modificar y ejecutar el software. 
+Un software libre es un software que respeta la libretades de los usuarios así como también la comunidad. Es decir, que los usuarios tienen la libertad de modificar y ejecutar el software. 
 
-Por eso cuando hablamos de software libre no nos referiamos a libretad, no a que el software es gratis. Al final un software libre le da al usuario libertad de hacer lo que queramos. Este confuncion viene de que en ingles free (libre) tambien se utiliza para referirse a algo gratis. 
+Por eso cuando hablamos de software libre no nos referimos a libretad, no a que el software es gratis. Al final un software libre le da al usuario libertad de hacer lo que queramos. Este confunció viene de que en inglés free (libre) tambien se utiliza para referirse a algo gratis. 
 
-Al finall un softher libre tiene que seguir una serie de criterios para que un programa sea considerado libre. Estos criterios son las cuatro libertades esenciales:
+Al finall un software libre tiene que seguir una serie de criterios para que un programa sea considerado libre. Estos criterios son las cuatro libertades esenciales:
 
 - **Libertad 0:** Libertad de ejecutar el programa para cualquier propósito y como desee el usuario.
 - **Libertad 1:** Libretad de poder estudiar como funciona el programa y poder cambiarlo para que haga lo que desee. Es impriscindible poder tener acceso al codigo fuente.
@@ -117,25 +117,25 @@ Una vez establecidos los criterios podemos pasar a puntuar y a justificar las de
 - **SAP S/HANA (1):** Esta orientado a organizaciones infinitamente mas grandes que "Sabores con Alma". Esta solucion es mucho mas compleja para las necesidades de nuestro catering. 
 - **SuiteCRM (4):** Por tamaño encaja bien con empresas pequeñas al no ser demasiado complejo y no necesita una gran estructura.
 
-3. Gestión de Clientes
+3. **Gestión de Clientes (15%)**
 - **Odoo Community (4):** Odoo tiene un CRP y permite gestionar completamente a los clientes y ventas. Estos tambien estan integrados a los módulos por lo que puede conectar mas facilmente con otros procesos de la empresa.
 - **SAP S/HANA (4):** Tambien dispone de funciones relacionadas con la gestion de los clientes pero no es concreta.
 - **SuiteCRM (5):** Esta completamete orientado a la gestion de clientes. Permitiendo centralizar la información y las comuncaciones con clientes.
 
-4. Gestion interna
+4. **Gestion interna (15%)**
 - **Odoo Community (5):** Integra diferentes áreas de la empresa en un mismo sistema, por loq eu la comunicacion entre los empleados es mas facil al estar centralizada y adtualizada entra los departamentos.
 - **SAP S/HANA (5):** Esta orientada a integra y gestionar diferentes procesos empresariales, por lo que cumple perfectamente varias de las necesidades de gestion interna.
 - **SuiteCRM (3):** Permite gestionar informacion relacionad con clientes y ventas peor no estas no cobren ampliamente las gestiones internas.
 
-5. Costes
+5. **Costes (20%)**
 - **Odoo Community (5):** Al ser un softeware libre y Community se reducen los costos de la licencia. Para nosotros que somos una empresa pequeña supone una opcion economica a la hora de pensar implantar un sistema de gestion.
 - **SAP S/HANA (1):** Esta planteada con un suscripción y su implantacion y mantenimiento pude supones costos demasiados elevados para "Sabores con Alma".
 - **SuiteCRM (4):** Cuenta tambien con un software libre por lo que tambien cuento como una opcion de bajo coste aumque no es perfecta por sis costes de implantación, mantenimiento y configuracion. 
 
-6. Facilidad de implantación
+6. **Facilidad de implantación (10%)**
 - **Odoo Community (4):** Es modular por lo que su implantacion de los módulos solo requiririamos los que necesita la empresa. Al ser una empresa pequeña seria manejable peor aun tendriamos que configurarlo y los empleados tendrian que adaptarse.
 - **SAP S/HANA (2):** Su implantacion es mas compleja comparada con las otras dos, esto es debido al alcance y cantidad de procesos empresariales que puede gestionar. "Sabores con Alma" es una empresa pequeñas que trabaja con papel y llamadas la adactacion sera compleja.
-- **SuiteCRM (4):**Al ser un CRM, no es tan complicado de implantar pero aun tendriamos que configurarlo de forma especifica para la empresa.
+- **SuiteCRM (4):** Al ser un CRM, no es tan complicado de implantar pero aun tendriamos que configurarlo de forma especifica para la empresa.
 
 ## 4.3 Resultados
 Una vez emos realizado la matriz pordemos estableces los resultado y determinar cual es el mas adecuado para "Sabores con Alma":
@@ -149,8 +149,8 @@ Como podemos ver la mas adecuada seria Odoo Community.
 ## 4.4 Riesgos 
 Una vez que hemos elegido Odoo Community tenemos que considerar los riesgos que "Sabores con Alma" esta enfrentando:
 
-- Coste Total: Como dijimos antes aunque con Odoo Community podemos reducir costes en licencia todavia tenemos que realizar los costes de la instalacion y configuración. Tambien hay que tener encuenta los futuros costes que tenemos que relizar a la hora de realizar el mantenimiento y posibles mosdificaciones del sistema.
-- Dependecia del proveedor: Si "Sabores con ALma" necesita que se realicen modificaciones en el sistema dependera de empresas externas o profesiones en el sector que sepan encargarse de realizar configuraciones en Odoo.
-- Soporte: Como estamos utilizando Odoo Community tendremos que planear a futuro quie se encargara de realizar el soporte técnico y mantenimientos al no contar con su propio departamento informatico.
-- Migración: Si en el futuro necesitamos realizar una migracion a otro sistema podemos perder datos, pedido y informacion por lo que esto se tendra que realizar con tiempo y trabajo.
+- **Coste Total:** Como dijimos antes aunque con Odoo Community podemos reducir costes en licencia todavia tenemos que realizar los costes de la instalacion y configuración. Tambien hay que tener encuenta los futuros costes que tenemos que relizar a la hora de realizar el mantenimiento y posibles mosdificaciones del sistema.
+- **Dependecia del proveedor:** Si "Sabores con ALma" necesita que se realicen modificaciones en el sistema dependera de empresas externas o profesiones en el sector que sepan encargarse de realizar configuraciones en Odoo.
+- **Soporte:** Como estamos utilizando Odoo Community tendremos que planear a futuro quie se encargara de realizar el soporte técnico y mantenimientos al no contar con su propio departamento informatico.
+- **Migración:** Si en el futuro necesitamos realizar una migracion a otro sistema podemos perder datos, pedido y informacion por lo que esto se tendra que realizar con tiempo y trabajo.
 
