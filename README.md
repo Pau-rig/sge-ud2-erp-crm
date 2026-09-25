@@ -25,3 +25,5 @@
 - https://developer.salesforce.com/docs/platform/webconsole/guide/work-with-code.html
 - https://www.salesforce.com/es/crm/
 - https://help.salesforce.com/s/articleView?id=platform.users_license_types_available.htm&type=5
+- https://docs.frappe.io/legal/others/license-and-trademark
+- https://www.odoo.com/es_ES/page/release-notes?utm_source
