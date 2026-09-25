@@ -59,3 +59,14 @@ Cuando hablamos de Community y Enterpriese son dos versiones de un mismo program
 - **Enterprise:** En esta version principalmente esta pensada para empresas por lo que pueden tener funciones adicionales que no estan pensados para Community como lo serioa sercios de soportes, mantenimiento o financias y sus condiciones de licenci pueden ser diferentes. 
 
 Las diferenceas no solo estan en los enfoque y en el precio si no en las necesidades de su publico objetivo por lo que sus funciones pueden ser muy diferentes.
+
+# 2.Fichas Tecnicas
+Ahora que ya hemos conocido sobre los software libres y propietarios vamos a inditeficar la licencia de cada uno de ellos: 
+
+| Producto | Tipo Software | Licencia exacta | Version Vigente | Lenguaje del Servidor | SGBD compatibles | Modalidad | Módulos Principales | Requisitos | Fecha de consulta |
+|---|---|---|---|---|---|---|---|---|
+| Odoo Community | ERP libre | LGPLv3 | Odoo 19.4 | Python | PostgreSQL 13 o superior | Local | Los modulos principales de Odoo Community son CRM, Ventas, Contabilidad, Facturación, Inventario, Compras, Fabricación, RR.HH., Marketing y eCommerce | Se necesita Python 3.10 o superior, PostgreSQL 13 o superior. | 25/09/2026 |
+| SAP S/HANA | ERP Propietario | Software subscription es el termino con el que se refieren a su licencia | 2608 | ABAP Cloud | SAP HANA | Nube | Los módulos principales de SAP S/HANA son Finanzas, Ventas, Compras, Cadena de suministro, Producción y Gestión de activos | Es necesario acceso a la plataforma SAP en la nube | 25/09/2026 |
+| SuiteCRM | CRM libre | AGPLv3 | SuiteCRM 8.10.2 | PHP tambien tecnologias del frontend como Angular | MySQL 8.0/8.4 y MariaDB 	10.6, 10.11, 11.4, 11.8 | Instalacion local aunque se puede utilizar servidores de alojamiento o instalarse en su propio servidor. | Los módulos principales de SuiteCRM son Calendario, Ventas, Marketing, y Atención al Cliente | PHP 8.2,8.3 o 8.4, Apache 2.4, MariaDB 10.6, 10.11, 11.4, 11.8 o MySQL 8.0, 8.4, Chrome 143+, Firefox 140 o 146+, Edge 143+ o Safari 26+ y Angular CLI ^18, Node.js ^20.11.1 o Yarn ^4.10.3 | 25/09/2026 |
+| Salesforce | CRM propietario | Software subscription es el termino con el que se refieren a su licencia pero la que tiene todas las ediciones es Salesforce| Winter`27 (264) | Apex este tipo de lenguaje orientado a objeto y tipado | SalesforceDB una base de datos relacional multitenant gestionada por Salesforce. | Nube (SaaS) | Los módulos principales de Salesforce son Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Data 360 y Agentforce. | Es necesario conexión a Internet y un navegador compatible con la plataforma. | 25/09/2026 |
+
